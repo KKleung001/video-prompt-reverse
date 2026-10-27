@@ -150,3 +150,9 @@ This repository is independently maintained and is not affiliated with MiniMax. 
 **中文**：本仓库公开供任何人查看，以及下载、保存未修改副本以供查看。其他权利保留；修改、改编、再分发、再发布、商业使用或其他用途，除法律另有规定外，需事先取得版权所有者书面授权。它采用有限公开许可，不是 MIT 等开源许可证。完整条款见 [LICENSE](LICENSE)。独立角色及素材不在授权范围内。
 
 **English**: Anyone may view this public repository and download and retain unmodified copies for viewing. All other rights are reserved. Modification, adaptation, redistribution, republication, commercial use, and other uses require prior written authorization unless permitted by applicable law. This is a limited public license, not an MIT or other open-source license. See [LICENSE](LICENSE) for the complete terms. Independently owned characters and assets are excluded.
+
+## 附件绑定与上传顺序 / Attachment mapping and upload order
+
+每段最终中英文提示词明确引用已验收首帧及实际采用的角色、环境、道具参考图，并说明各图用途。交付包含每段的文件与编号对应清单：默认首帧 → 角色 → 环境 → 道具，缺少的类别跳过并连续编号。用户须按清单上传，并核对生成端实际标签；HTML 配图不会自动上传到 MiniMax H3。
+
+Each final Chinese and English segment prompt explicitly references its approved first frame and any character, environment, or prop images used, with a defined role for each. Each segment includes a file-to-number upload list: first frame → character → environment → props, skipping absent categories and numbering consecutively. Upload in the listed order and verify the actual labels in the generation interface; HTML images are not automatically uploaded to MiniMax H3.
